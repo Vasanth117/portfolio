@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasanth M | Portfolio - Full Stack Web Developer & AI Enthusiast</title>
+    <meta name="description" content="Portfolio of Vasanth M, a Full Stack Developer specializing in Web Development, Deep Learning, and Embedded Systems. Check out my projects, skills, and certifications.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Outfit:wght@300;400;600;800&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <!-- Floating Background Elements -->
+    <div class="floating-bg">
+        <div class="bg-shape shape-1"></div>
+        <div class="bg-shape shape-2"></div>
+        <div class="bg-shape shape-3"></div>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="site-header">
+        <div class="header-logo">
+            <a href="#" class="logo-text">V<span>M</span></a>
+        </div>
+        <nav class="main-nav">
+            <a href="#work" class="nav-link">WORK</a>
+            <a href="#experience" class="nav-link">EXPERIENCE</a>
+            <a href="#skills" class="nav-link">SKILLS</a>
+            <a href="#education" class="nav-link">EDUCATION</a>
+            <a href="#connect" class="nav-link">CONNECT</a>
+        </nav>
+        <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+            <span class="menu-bar"></span>
+            <span class="menu-bar"></span>
+        </button>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav-overlay">
+        <nav class="mobile-nav">
+            <a href="#work" class="mobile-nav-link">WORK</a>
+            <a href="#experience" class="mobile-nav-link">EXPERIENCE</a>
+            <a href="#skills" class="mobile-nav-link">SKILLS</a>
+            <a href="#education" class="mobile-nav-link">EDUCATION</a>
+            <a href="#connect" class="mobile-nav-link">CONNECT</a>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <span class="hero-badge mono-text">PORTFOLIO &copy; 2026</span>
+                <h1 class="hero-title">
+                    <span class="text-fill">VASANTH</span>
+                    <span class="text-outline">M</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Full Stack Web Developer & AI/ML Enthusiast based in India. 
+                    Building interactive web architectures, deep learning models, and smart IoT systems.
+                </p>
+                <div class="hero-actions">
+                    <a href="#work" class="btn btn-primary">
+                        <span>EXPLORE PROJECTS</span>
+                        <i data-lucide="arrow-down-right"></i>
+                    </a>
+                    <a href="#connect" class="btn btn-secondary">
+                        <span>GET IN TOUCH</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <span class="mono-text">SCROLL TO DISCOVER</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- Angle Marquee Section -->
+        <section class="marquee-section">
+            <div class="marquee-container">
+                <div class="marquee-track">
+                    <span class="marquee-text">FULL STACK DEVELOPER <span class="gradient-dot"></span></span>
+                    <span class="marquee-text">AI & MACHINE LEARNING <span class="gradient-dot"></span></span>
+                    <span class="marquee-text">EMBEDDED SYSTEMS <span class="gradient-dot"></span></span>
+                    <span class="marquee-text">MERN STACK <span class="gradient-dot"></span></span>
+                    <span class="marquee-text">INTERACTIVE WEB EXPERIENCES <span class="gradient-dot"></span></span>
+                    
+                    <!-- Duplicate for infinite scroll -->
+                    <span class="marquee-text">FULL STACK DEVELOPER <span class="gradient-dot"></span></span>
+                    <span class="marquee-text">AI & MACHINE LEARNING <span class="gradient-dot"></span></span>
+                    <span class="marquee-text">EMBEDDED SYSTEMS <span class="gradient-dot"></span></span>
+                    <span class="marquee-text">MERN STACK <span class="gradient-dot"></span></span>
+                    <span class="marquee-text">INTERACTIVE WEB EXPERIENCES <span class="gradient-dot"></span></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Selected Projects Section -->
+        <section id="work" class="section work-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag mono-text">01 // CREATIVE PLAYGROUND</span>
+                    <h2 class="section-title">SELECTED WORK</h2>
+                </div>
+
+                <div class="projects-list">
+                    <!-- Project 1: ZeroTox -->
+                    <article class="project-card" data-tilt>
+                        <div class="project-image-container">
+                            <img src="assets/zerotox.png" alt="ZeroTox Futuristic Smart Safety Helmet" class="project-image" loading="lazy">
+                            <div class="project-image-overlay"></div>
+                            <div class="gloss-reflection"></div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-number mono-text">01/03</span>
+                            <h3 class="project-name">ZeroTox</h3>
+                            <p class="project-tagline mono-text">Zero Toxins. Zero Casualties.</p>
+                            <p class="project-description">
+                                A smart helmet-integrated safety system for confined and underground workers. Features continuous multi-gas and particulate monitoring with real-time haptic/buzzer/LED alerts. Developed using LoRa-based mesh communication for reliable underground data transmission and a live supervisor monitoring panel for automated emergency rescue.
+                            </p>
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">LoRa Mesh</span>
+                                <span class="tech-tag">IoT Hardware</span>
+                                <span class="tech-tag">Multi-Gas Sensors</span>
+                                <span class="tech-tag">Embedded C</span>
+                                <span class="tech-tag">Real-Time Alerts</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: VoltIQ -->
+                    <article class="project-card project-card-reverse" data-tilt>
+                        <div class="project-image-container">
+                            <img src="assets/voltiq.png" alt="VoltIQ Energy Demand Analytics Dashboard" class="project-image" loading="lazy">
+                            <div class="project-image-overlay"></div>
+                            <div class="gloss-reflection"></div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-number mono-text">02/03</span>
+                            <h3 class="project-name">VoltIQ</h3>
+                            <p class="project-tagline mono-text">Real-Time Energy Demand Analytics & Forecasting</p>
+                            <p class="project-description">
+                                A full-stack energy demand forecasting system achieving 94.2% prediction accuracy. Built using Random Forest, XGBoost, LSTM, and Ensemble models to predict peak load demands. Features real-time data streaming (30s updates), weather-based forecasting via API integration, role-based authentication, and dynamic interactive dashboards for grid management.
+                            </p>
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Python Flask</span>
+                                <span class="tech-tag">Random Forest & LSTM</span>
+                                <span class="tech-tag">XGBoost</span>
+                                <span class="tech-tag">REST API</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: LeafSense -->
+                    <article class="project-card" data-tilt>
+                        <div class="project-image-container">
+                            <img src="assets/leafsense.png" alt="LeafSense AI Plant Disease Identification Mobile App" class="project-image" loading="lazy">
+                            <div class="project-image-overlay"></div>
+                            <div class="gloss-reflection"></div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-number mono-text">03/03</span>
+                            <h3 class="project-name">LeafSense</h3>
+                            <p class="project-tagline mono-text">AI-Powered Plant Disease Identification System</p>
+                            <p class="project-description">
+                                An end-to-end computer vision web application that detects plant diseases with over 90% accuracy across 15 disease classes. Integrated CNN deep learning models (TensorFlow/Keras) served via Flask REST APIs to a responsive React/Redux frontend, complete with rapid image upload pipelines and an actionable disease diagnostics database.
+                            </p>
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">CNN Models</span>
+                                <span class="tech-tag">TensorFlow / Keras</span>
+                                <span class="tech-tag">Flask Backend</span>
+                                <span class="tech-tag">React & Redux</span>
+                                <span class="tech-tag">Image Processing</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Internship Section -->
+        <section id="experience" class="section experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag mono-text">02 // PROFESSIONAL JOURNEY</span>
+                    <h2 class="section-title">INTERNSHIPS</h2>
+                </div>
+
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <div class="exp-company-info">
+                                <h3 class="exp-role">Full Stack Web Development Intern</h3>
+                                <h4 class="exp-company">RudraFusion Private Limited</h4>
+                            </div>
+                            <div class="exp-meta mono-text">
+                                <span class="exp-date">Nov 2024 - Present</span>
+                                <a href="#" class="exp-link" target="_blank">
+                                    <span>CERTIFICATE</span>
+                                    <i data-lucide="external-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="experience-body">
+                            <p>
+                                Developed and optimized robust full stack applications within a fast-paced team environment, deploying core architectural features utilizing the MERN stack. Key contributions include:
+                            </p>
+                            <ul class="exp-bullets">
+                                <li>Engineered a real-time web application for the <strong>Tech Innovators Club</strong> using MongoDB, Express.js, React.js, and Node.js.</li>
+                                <li>Designed highly responsive and intuitive UI components with React.js, improving page load speeds and client satisfaction.</li>
+                                <li>Built secure RESTful APIs with Node.js and Express.js, incorporating secure routing and database queries.</li>
+                                <li>Optimized data storage, structure, and aggregation operations in MongoDB, ensuring seamless transactional management.</li>
+                                <li>Engaged in industry-standard Agile workflows, code reviews, and Git-based collaborative development cycles.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag mono-text">03 // TOOLBOX & STACK</span>
+                    <h2 class="section-title">TECHNICAL SKILLS</h2>
+                </div>
+
+                <div class="skills-layout">
+                    <div class="skills-categories-info">
+                        <p class="skills-intro-text">
+                            I specialize in building applications from the ground up—from embedded sensor hardware and machine learning algorithms to responsive frontend user interfaces and database backends.
+                        </p>
+                        <div class="skills-legend">
+                            <div class="legend-item"><span class="legend-dot color-lang"></span> Languages</div>
+                            <div class="legend-item"><span class="legend-dot color-framework"></span> Libraries & Frameworks</div>
+                            <div class="legend-item"><span class="legend-dot color-db"></span> Databases</div>
+                            <div class="legend-item"><span class="legend-dot color-devops"></span> Cloud & DevOps</div>
+                            <div class="legend-item"><span class="legend-dot color-tools"></span> Tools & Platforms</div>
+                        </div>
+                    </div>
+
+                    <div class="skills-grid-container">
+                        <div class="skills-grid">
+                            <!-- Languages -->
+                            <div class="skill-box skill-lang" data-glow-color="rgba(240, 219, 79, 0.15)">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-tag mono-text">Language</span>
+                            </div>
+                            <div class="skill-box skill-lang" data-glow-color="rgba(243, 127, 33, 0.15)">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-tag mono-text">Language</span>
+                            </div>
+                            <div class="skill-box skill-lang" data-glow-color="rgba(0, 89, 156, 0.15)">
+                                <span class="skill-name">C</span>
+                                <span class="skill-tag mono-text">Language</span>
+                            </div>
+                            <div class="skill-box skill-lang" data-glow-color="rgba(100, 154, 210, 0.15)">
+                                <span class="skill-name">C++</span>
+                                <span class="skill-tag mono-text">Language</span>
+                            </div>
+
+                            <!-- Frameworks -->
+                            <div class="skill-box skill-framework" data-glow-color="rgba(97, 218, 251, 0.15)">
+                                <span class="skill-name">ReactJS</span>
+                                <span class="skill-tag mono-text">Frontend</span>
+                            </div>
+                            <div class="skill-box skill-framework" data-glow-color="rgba(104, 159, 99, 0.15)">
+                                <span class="skill-name">NodeJS</span>
+                                <span class="skill-tag mono-text">Backend</span>
+                            </div>
+                            <div class="skill-box skill-framework" data-glow-color="rgba(136, 136, 136, 0.15)">
+                                <span class="skill-name">ExpressJS</span>
+                                <span class="skill-tag mono-text">Backend</span>
+                            </div>
+                            <div class="skill-box skill-framework" data-glow-color="rgba(141, 0, 0, 0.15)">
+                                <span class="skill-name">Mongoose</span>
+                                <span class="skill-tag mono-text">ODM</span>
+                            </div>
+                            <div class="skill-box skill-framework" data-glow-color="rgba(97, 218, 251, 0.15)">
+                                <span class="skill-name">React Native</span>
+                                <span class="skill-tag mono-text">Mobile</span>
+                            </div>
+
+                            <!-- Databases -->
+                            <div class="skill-box skill-db" data-glow-color="rgba(71, 162, 72, 0.15)">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-tag mono-text">Database</span>
+                            </div>
+
+                            <!-- Cloud/DevOps -->
+                            <div class="skill-box skill-devops" data-glow-color="rgba(255, 255, 255, 0.15)">
+                                <span class="skill-name">Vercel</span>
+                                <span class="skill-tag mono-text">Deploy</span>
+                            </div>
+                            <div class="skill-box skill-devops" data-glow-color="rgba(0, 193, 178, 0.15)">
+                                <span class="skill-name">Netlify</span>
+                                <span class="skill-tag mono-text">Deploy</span>
+                            </div>
+
+                            <!-- Tools -->
+                            <div class="skill-box skill-tools" data-glow-color="rgba(240, 80, 50, 0.15)">
+                                <span class="skill-name">Git</span>
+                                <span class="skill-tag mono-text">VCS</span>
+                            </div>
+                            <div class="skill-box skill-tools" data-glow-color="rgba(255, 255, 255, 0.15)">
+                                <span class="skill-name">GitHub</span>
+                                <span class="skill-tag mono-text">Platform</span>
+                            </div>
+                            <div class="skill-box skill-tools" data-glow-color="rgba(239, 90, 39, 0.15)">
+                                <span class="skill-name">Postman</span>
+                                <span class="skill-tag mono-text">API Tool</span>
+                            </div>
+                            <div class="skill-box skill-tools" data-glow-color="rgba(52, 72, 237, 0.15)">
+                                <span class="skill-name">Cloudinary</span>
+                                <span class="skill-tag mono-text">CDN</span>
+                            </div>
+                            <div class="skill-box skill-tools" data-glow-color="rgba(70, 222, 126, 0.15)">
+                                <span class="skill-name">Render</span>
+                                <span class="skill-tag mono-text">Host</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section certifications-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag mono-text">04 // VERIFIED CREDENTIALS</span>
+                    <h2 class="section-title">CERTIFICATIONS</h2>
+                    <div class="certifications-filter">
+                        <button class="filter-btn active" data-filter="all">ALL</button>
+                        <button class="filter-btn" data-filter="development">DEVELOPMENT</button>
+                        <button class="filter-btn" data-filter="languages">LANGUAGES</button>
+                        <button class="filter-btn" data-filter="problem-solving">PROBLEM SOLVING</button>
+                    </div>
+                </div>
+
+                <div class="certifications-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card" data-category="languages">
+                        <div class="cert-body">
+                            <span class="cert-issuer mono-text">IIT BOMBAY</span>
+                            <h3 class="cert-title">C Programming Certification</h3>
+                            <p class="cert-detail">Scored 72.50% in verified exam.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="mono-text">72.50% Score</span>
+                            <i data-lucide="award"></i>
+                        </div>
+                    </div>
+                    <!-- Cert 2 -->
+                    <div class="cert-card" data-category="languages">
+                        <div class="cert-body">
+                            <span class="cert-issuer mono-text">IIT BOMBAY</span>
+                            <h3 class="cert-title">C++ Programming Certification</h3>
+                            <p class="cert-detail">Scored 72.50% in verified exam.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="mono-text">72.50% Score</span>
+                            <i data-lucide="award"></i>
+                        </div>
+                    </div>
+                    <!-- Cert 3 -->
+                    <div class="cert-card" data-category="languages">
+                        <div class="cert-body">
+                            <span class="cert-issuer mono-text">TRAINING CENTER</span>
+                            <h3 class="cert-title">C Programming Training</h3>
+                            <p class="cert-detail">High excellence completion certificate.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="mono-text">95% Score</span>
+                            <i data-lucide="award"></i>
+                        </div>
+                    </div>
+                    <!-- Cert 4 -->
+                    <div class="cert-card" data-category="languages">
+                        <div class="cert-body">
+                            <span class="cert-issuer mono-text">TRAINING CENTER</span>
+                            <h3 class="cert-title">C++ Programming Training</h3>
+                            <p class="cert-detail">High excellence completion certificate.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="mono-text">89% Score</span>
+                            <i data-lucide="award"></i>
+                        </div>
+                    </div>
+                    <!-- Cert 5 -->
+                    <div class="cert-card" data-category="problem-solving">
+                        <div class="cert-body">
+                            <span class="cert-issuer mono-text">COURSE WORK</span>
+                            <h3 class="cert-title">Mastering Data Structures & Algorithms</h3>
+                            <p class="cert-detail">Advanced instruction using C and C++ environments.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="mono-text">DSA Mastered</span>
+                            <i data-lucide="award"></i>
+                        </div>
+                    </div>
+                    <!-- Cert 6 -->
+                    <div class="cert-card" data-category="development">
+                        <div class="cert-body">
+                            <span class="cert-issuer mono-text">UDEMY</span>
+                            <h3 class="cert-title">JavaScript Fundamentals</h3>
+                            <p class="cert-detail">Modern programming patterns, ES6+, and asynchronous operations.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="mono-text">Verified Badge</span>
+                            <i data-lucide="award"></i>
+                        </div>
+                    </div>
+                    <!-- Cert 7 -->
+                    <div class="cert-card" data-category="development">
+                        <div class="cert-body">
+                            <span class="cert-issuer mono-text">UDEMY</span>
+                            <h3 class="cert-title">Python Fundamentals</h3>
+                            <p class="cert-detail">Core syntax, data processing, and scripting pipelines.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="mono-text">Verified Badge</span>
+                            <i data-lucide="award"></i>
+                        </div>
+                    </div>
+                    <!-- Cert 8 -->
+                    <div class="cert-card" data-category="development">
+                        <div class="cert-body">
+                            <span class="cert-issuer mono-text">ORACLE</span>
+                            <h3 class="cert-title">Java Explorer Badge</h3>
+                            <p class="cert-detail">Object-Oriented Programming and Java Standard Library foundations.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="mono-text">Oracle Badge</span>
+                            <i data-lucide="award"></i>
+                        </div>
+                    </div>
+                    <!-- Cert 9 -->
+                    <div class="cert-card" data-category="development">
+                        <div class="cert-body">
+                            <span class="cert-issuer mono-text">UDEMY</span>
+                            <h3 class="cert-title">React JS Developer</h3>
+                            <p class="cert-detail">Single Page Application builds, hooks, and global state architectures.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="mono-text">Verified Badge</span>
+                            <i data-lucide="award"></i>
+                        </div>
+                    </div>
+                    <!-- Cert 10 -->
+                    <div class="cert-card" data-category="problem-solving">
+                        <div class="cert-body">
+                            <span class="cert-issuer mono-text">SKILLRACK</span>
+                            <h3 class="cert-title">1600+ Coding Problems</h3>
+                            <p class="cert-detail">Consistent problem solver across multi-language tracks.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="mono-text">25+ Certificates</span>
+                            <i data-lucide="award"></i>
+                        </div>
+                    </div>
+                    <!-- Cert 11 -->
+                    <div class="cert-card" data-category="problem-solving">
+                        <div class="cert-body">
+                            <span class="cert-issuer mono-text">LEETCODE</span>
+                            <h3 class="cert-title">100+ Solved Challenges</h3>
+                            <p class="cert-detail">Actively practicing dynamic programming, graphs, and arrays.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="mono-text">Active Profile</span>
+                            <i data-lucide="award"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section education-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag mono-text">05 // EDUCATION SUMMARY</span>
+                    <h2 class="section-title">ACADEMICS</h2>
+                </div>
+
+                <div class="timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-institution">Sri Eshwar College of Engineering</h3>
+                                <span class="timeline-period mono-text">Nov 2024 - Jun 2028</span>
+                            </div>
+                            <h4 class="timeline-degree">B.E. Computer Science and Engineering</h4>
+                            <p class="timeline-detail">First Year CGPA: <strong>8.00 / 10.0</strong></p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-institution">Sowdambikaa Matric Boys Higher Secondary School</h3>
+                                <span class="timeline-period mono-text">Jun 2023 - Jun 2024</span>
+                            </div>
+                            <h4 class="timeline-degree">HSC - High School Certificate</h4>
+                            <p class="timeline-detail">Percentage Obtained: <strong>90.17%</strong></p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-institution">School Academy</h3>
+                                <span class="timeline-period mono-text">Jun 2022 - Jun 2023</span>
+                            </div>
+                            <h4 class="timeline-degree">SSLC - Secondary School Leaving Certificate</h4>
+                            <p class="timeline-detail">Percentage Obtained: <strong>81.00%</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="section achievements-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag mono-text">06 // BEYOND CODE</span>
+                    <h2 class="section-title">LEADERSHIP & ROLE</h2>
+                </div>
+
+                <div class="achievements-list">
+                    <div class="achievement-card">
+                        <i data-lucide="shield-alert" class="ach-icon"></i>
+                        <h3 class="ach-title">Secretary</h3>
+                        <p class="ach-org mono-text">DEPARTMENT OF CSE</p>
+                        <p class="ach-desc">Leading organization panels, coordinating events, representing student student-body requests to college administrators.</p>
+                    </div>
+                    <div class="achievement-card">
+                        <i data-lucide="lightbulb" class="ach-icon"></i>
+                        <h3 class="ach-title">Student Lead (Design & Media)</h3>
+                        <p class="ach-org mono-text">ENTREPRENEURSHIP DEVELOPMENT CELL</p>
+                        <p class="ach-desc">Directing branding material, newsletters, social campaigns, and interactive design mockups for college startups.</p>
+                    </div>
+                    <div class="achievement-card">
+                        <i data-lucide="globe" class="ach-icon"></i>
+                        <h3 class="ach-title">Student Lead (Media & Comm)</h3>
+                        <p class="ach-org mono-text">CENTER FOR INTERNATIONAL RELATION</p>
+                        <p class="ach-desc">Managing cross-border exchange programs media promotions, guest relations, and international student integration kits.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Connect / Footer Section (Inversion Area) -->
+    <section id="connect" class="connect-section">
+        <div class="connect-overlay-transition"></div>
+        <div class="container">
+            <div class="connect-header">
+                <span class="connect-tag mono-text">07 // LET'S TALK</span>
+                <h2 class="connect-title">CONNECT</h2>
+            </div>
+            
+            <div class="connect-cta-wrapper">
+                <h3 class="connect-cta">
+                    LET'S BUILD <br>SOMETHING <br><span class="outlined-text">EXTRAORDINARY</span>
+                </h3>
+            </div>
+
+            <div class="connect-links-list">
+                <!-- Email -->
+                <a href="mailto:vasanth.m2024cse@sece.ac.in" class="connect-link-item">
+                    <span class="link-label mono-text">EMAIL</span>
+                    <span class="link-value">vasanth.m2024cse@sece.ac.in</span>
+                    <i data-lucide="arrow-right" class="link-arrow"></i>
+                </a>
+                <!-- Phone -->
+                <a href="tel:+919566859053" class="connect-link-item">
+                    <span class="link-label mono-text">PHONE</span>
+                    <span class="link-value">+91 9566859053</span>
+                    <i data-lucide="arrow-right" class="link-arrow"></i>
+                </a>
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com" target="_blank" class="connect-link-item">
+                    <span class="link-label mono-text">LINKEDIN</span>
+                    <span class="link-value">Vasanth M</span>
+                    <i data-lucide="arrow-right" class="link-arrow"></i>
+                </a>
+                <!-- GitHub -->
+                <a href="https://github.com" target="_blank" class="connect-link-item">
+                    <span class="link-label mono-text">GITHUB</span>
+                    <span class="link-value">GitHub Profile</span>
+                    <i data-lucide="arrow-right" class="link-arrow"></i>
+                </a>
+                <!-- Leetcode -->
+                <a href="https://leetcode.com" target="_blank" class="connect-link-item">
+                    <span class="link-label mono-text">LEETCODE</span>
+                    <span class="link-value">LeetCode Solver</span>
+                    <i data-lucide="arrow-right" class="link-arrow"></i>
+                </a>
+            </div>
+
+            <footer class="footer">
+                <div class="footer-info">
+                    <p class="mono-text">&copy; 2026 VASANTH M. ALL RIGHTS RESERVED.</p>
+                </div>
+                <div class="footer-credit">
+                    <p class="mono-text">DESIGN INSPIRED BY ZMASLO.DESIGN</p>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+    <!-- JS Files -->
+    <script src="js/main.js"></script>
+</body>
+</html>
